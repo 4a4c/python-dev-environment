@@ -36,7 +36,7 @@
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
 
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y zsh && pip install --upgrade pip && pip install pytest black flake8 mypy pylint ruff jupyter jupyterlab ipykernel",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y zsh && pip install --upgrade pip && pip install ruff jupyter jupyterlab ipykernel numpy pandas matplotlib scikit-learn torch",
 
   "mounts": [
     "source=${localEnv:HOME}/.zshrc,target=/home/vscode/.zshrc,type=bind,consistency=cached",
