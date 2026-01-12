@@ -19,9 +19,10 @@ A containerized Python development environment using VS Code Dev Containers.
 The dev container includes:
 - Python 3.12
 - Common Python development tools (pytest, black, flake8, mypy, pylint, ruff)
-- Python extensions for VS Code
-- Jupyter notebook support
+- Jupyter notebook support (jupyter, jupyterlab, ipykernel)
+- Python and Jupyter extensions for VS Code
 - Git and GitHub CLI
+- Zsh shell (uses your local zsh config, oh-my-zsh, and history)
 
 ## Development
 
